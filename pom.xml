@@ -92,6 +92,14 @@
 		</developer>
 	</developers>
 
+	<pluginRepositories>
+		<pluginRepository>
+			<id>Sonatype</id>
+			<name>OSS Sonatype</name>
+			<url>https://oss.sonatype.org/content/groups/public/</url>
+		</pluginRepository>
+	</pluginRepositories>
+
 	<repositories>
 		<repository>
 			<id>excilys</id>
@@ -103,6 +111,11 @@
 			<snapshots>
 				<enabled>false</enabled>
 			</snapshots>
+		</repository>
+		<repository>
+			<id>Sonatype</id>
+			<name>OSS Sonatype</name>
+			<url>https://oss.sonatype.org/content/groups/public/</url>
 		</repository>
 		<!-- http://repo.typesafe.com/typesafe/releases -->
 		<!-- http://repo.jenkins-ci.org/content/repositories/releases -->
@@ -149,6 +162,8 @@
 		<maven-plugin-plugin.version>2.9</maven-plugin-plugin.version>
 		<build-helper-maven-plugin.version>1.7</build-helper-maven-plugin.version>
 		<maven-enforcer-plugin.version>1.2</maven-enforcer-plugin.version>
+		<maven-project-info-reports-plugin.version>2.6</maven-project-info-reports-plugin.version>
+		<sphinx-maven-plugin.version>1.0.2</sphinx-maven-plugin.version>
 
 		<header.basedir>${project.basedir}</header.basedir>
 	</properties>
@@ -567,4 +582,25 @@
 			</plugin>
 		</plugins>
 	</build>
+
+	<reporting>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-project-info-reports-plugin</artifactId>
+				<version>${maven-project-info-reports-plugin.version}</version>
+				<reportSets>
+					<reportSet>
+						<reports></reports>
+					</reportSet>
+				</reportSets>
+			</plugin>
+			<plugin>
+				<groupId>org.tomdz.maven</groupId>
+				<artifactId>sphinx-maven-plugin</artifactId>
+				<version>${sphinx-maven-plugin.version}</version>
+				<inherited>false</inherited>
+			</plugin>
+		</plugins>
+	</reporting>
 </project>
