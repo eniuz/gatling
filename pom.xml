@@ -92,14 +92,6 @@
 		</developer>
 	</developers>
 
-	<pluginRepositories>
-		<pluginRepository>
-			<id>Sonatype</id>
-			<name>OSS Sonatype</name>
-			<url>https://oss.sonatype.org/content/groups/public/</url>
-		</pluginRepository>
-	</pluginRepositories>
-
 	<repositories>
 		<repository>
 			<id>excilys</id>
@@ -112,14 +104,17 @@
 				<enabled>false</enabled>
 			</snapshots>
 		</repository>
-		<repository>
-			<id>Sonatype</id>
-			<name>OSS Sonatype</name>
-			<url>https://oss.sonatype.org/content/groups/public/</url>
-		</repository>
 		<!-- http://repo.typesafe.com/typesafe/releases -->
 		<!-- http://repo.jenkins-ci.org/content/repositories/releases -->
 	</repositories>
+
+	<pluginRepositories>
+		<pluginRepository>
+			<id>sonatype</id>
+			<name>Sonatype OSS Repository</name>
+			<url>https://oss.sonatype.org/content/groups/public/</url>
+		</pluginRepository>
+	</pluginRepositories>
 
 	<properties>
 		<maven.compiler.source>1.6</maven.compiler.source>
