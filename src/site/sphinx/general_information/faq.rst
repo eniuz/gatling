@@ -15,9 +15,7 @@ We really want to keep as much code as possible under Apache 2, so we move the r
 
 If anyone can come with an Apache 2 licenced solution that's as sexy and plug-and-play as Highcharts and Highstock, we'd gladly make it the default implementation and integrate it into the main project!
 
-.. todo:: fix cross-docs links when done
-
-See [Licence section](https://github.com/excilys/gatling/wiki/License)
+See :ref:`License.`
 
 .. _gatling-highcharts-split2:
 **Q: I built from sources and got a java.lang.NoClassDefFoundError: com/excilys/ebi/gatling/charts/component/impl/ComponentLibraryImpl**

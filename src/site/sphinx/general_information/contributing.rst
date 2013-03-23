@@ -34,10 +34,8 @@ We chose Github for its community oriented workflow. If you want to provide code
 5. On Github, go to your branch and create a *Pull Request*
 6. We will answer as soon as we can
 
-.. todo:: Fix cross-doc links when done
-
 .. note::
-  Please be aware that you can not provide code for gatling-highcharts due to [license restrictions](License).
+  Please be aware that you can not provide code for gatling-highcharts due to :ref:`license restrictions <license>`.
 
 .. _support:
 
@@ -59,7 +57,7 @@ The mailing list is hosted on Google Group at https://groups.google.com/forum/#!
 .. todo:: fix cross-doc links when done
 
 .. note::
-  Before asking the community for help, please read the [[tutorial|First Steps With Gatling]], search the reference, read the [FAQ](FAQ) and look for any existing conversation about your problem before creating a new one :-)
+  Before asking the community for help, please read the [[tutorial|First Steps With Gatling]], search the reference, read the :ref:`FAQ <faq>` and look for any existing conversation about your problem before creating a new one :-)
 
 Social networks
 ---------------
