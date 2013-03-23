@@ -184,7 +184,7 @@ latex_elements = {
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
   ('index', 'Gatling.tex', u'Gatling Documentation',
-   u'Pierre, Stephane', 'manual'),
+   u'eBusiness Information', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -214,7 +214,7 @@ latex_documents = [
 # (source start file, name, description, authors, manual section).
 man_pages = [
     ('index', 'gatling', u'Gatling Documentation',
-     [u'Pierre, Stephane'], 1)
+     [u'eBusiness Information'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -228,7 +228,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
   ('index', 'Gatling', u'Gatling Documentation',
-   u'Pierre, Stephane', 'Gatling', 'One line description of project.',
+   u'eBusiness Information', 'Gatling', 'One line description of project.',
    'Miscellaneous'),
 ]
 
