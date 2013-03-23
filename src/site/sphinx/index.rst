@@ -5,3 +5,8 @@ Welcome to Gatling's documentation!
 	:maxdepth: 2
 
 	general_information/index
+
+TODO list
+=========
+
+.. todolist::
