@@ -2,7 +2,7 @@
 Links
 #####
 
-Videos about Gatling:
+Videos about Gatling
 =====================
 
 * Devoxx 2012 Tool in Action:
@@ -25,7 +25,7 @@ Videos about Gatling:
   * http://parleys.com/#st=5&id=3317
   * Slides: http://www.slideshare.net/slandelle/gatling-devoxxfr-2012-12715696
 
-Articles about Gatling:
+Articles about Gatling
 =======================
 
 * Max De Marzi: Neo4j and Gatling sitting in a tree, Performance T-E-S-T-ing
