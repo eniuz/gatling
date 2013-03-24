@@ -54,6 +54,7 @@ Here's what the Gatling script looks like::
 
     setUp(scn.users(1500).ramp(100).delay(7).protocolConfig(httpConf))
   }
+
 You can also compare the verbosity of both scripts:
 
 * JMeter: https://gist.github.com/3870492
@@ -69,10 +70,12 @@ And here are the results, run in quite similar conditions:
 
 See for yourself!
 
-.. image:: benchmark-jmeter-transactions.png
+.. image:: img/benchmark-jmeter-transactions.png
   :width: 70 %
+
 JMeter 2.8
 
-.. image:: benchmark-gatling-transactions.png
+.. image:: img/benchmark-gatling-transactions.png
   :scale: 50 %
+
 Gatling 1.3.2
