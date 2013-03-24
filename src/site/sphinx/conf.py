@@ -23,9 +23,6 @@ highlight_language = 'scala'
 add_function_parentheses = False
 show_authors= True
 
-# Show todos while POCing the documentation
-todo_include_todos = True
-
 # -- Options for HTML output ---------------------------------------------------
 
 html_theme = 'default'
@@ -43,3 +40,8 @@ html_show_sphinx = False
 html_show_copyright = True
 
 htmlhelp_basename = 'Gatlingdoc'
+
+# -- Options Extensions --------------------------------------------------------
+
+# Show todos while POCing the documentation
+todo_include_todos = True
