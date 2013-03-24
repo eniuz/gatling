@@ -26,9 +26,8 @@ Providing code
 
 We chose Github for its community oriented workflow. If you want to provide code for Gatling, please follow Github's way.
 
-.. todo:: Fix cross-doc links when done
 1. Fork the project onto your own account
-2. Read [[Development Environment]] to install what is needed on your computer
+2. Read :ref:`dev-environment` to install what is needed on your computer
 3. Code
 4. Commit and push to your own branch, on your own repository. Try to find a good name for your branch, if your modification is to close an issue, please let us know.
 5. On Github, go to your branch and create a *Pull Request*
@@ -54,10 +53,8 @@ Mailing List
 
 The mailing list is hosted on Google Group at https://groups.google.com/forum/#!forum/gatling.
 
-.. todo:: fix cross-doc links when done
-
 .. note::
-  Before asking the community for help, please read the [[tutorial|First Steps With Gatling]], search the reference, read the :ref:`FAQ <faq>` and look for any existing conversation about your problem before creating a new one :-)
+  Before asking the community for help, please read the :ref:`tutorial <first-steps-with-gatling>`, search the reference, read the :ref:`FAQ <faq>` and look for any existing conversation about your problem before creating a new one :-)
 
 Social networks
 ---------------

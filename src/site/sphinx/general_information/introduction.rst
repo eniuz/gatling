@@ -31,12 +31,11 @@ What's the point in having to run the stress tool with more horse power than the
 
 Gatling scripts are elegant and concise
 ---------------------------------------
-.. todo:: fix cross-doc links when done
 
 Simulation scripts should be written in a concise and user-friendly manner so that they can be handled by a version control system.
 Why is that? Because performing performance tests should be part of the release process, so a version of a scenario is to be bound to a version of the application sources, and one should be able to perform diffs between versions.
 This can't be achieved if the script are huge dumps of XML that can only be read from a specific GUI.
-Gatling provides a [concise, elegant and easy to learn syntax](Scenario-Components)::
+Gatling provides a :ref:`concise, elegant and easy to learn syntax <structure-elements>`::
 
   scenario("Standard User")
     .exec( http("Access Github") get("http://github.com") )
@@ -47,6 +46,7 @@ Gatling provides a [concise, elegant and easy to learn syntax](Scenario-Componen
 Gatling scripts are code
 ------------------------
 .. todo:: fix cross-doc links when done
+
 The standard DSL should be sufficient for most use cases.
 However, this DSL is actually written in Scala, on top of an open functional API.
 As a consequence, it can be easily [extended](Advanced-Usage#wiki-scala-functions) with very few basic knowledge: no need to be a Scala hacker.

@@ -56,7 +56,7 @@ The HTTP requests are the ones which are actually sent to the tested application
 
 For a complete description of scenarios, see the Reference articles
 
-.. _simulation:
+.. _concept-simulation:
 
 Simulation
 ==========
@@ -87,34 +87,30 @@ Each scenario is defined first; here, we have three scenarios representing *stan
 .. note::
   Using a ramp can be critical for JVM based applications as the JIT compiler identifies hot spots. (The JVM "warms up")
 
+.. _concept-session:
+
 Session
 -------
 
-.. todo:: Fix cross-doc links when done
-
 For each simulated user, there is a session. This session is accessible to one and only one user at runtime. It allows Gatling to store information while processing the scenarios, but it also allows testers to dynamically store data and use it in their requests.
 
-For more information, check the [Session reference section](Session).
+For more information, check the :ref:`Session reference section <session>`.
 
-.. _feeders:
+.. _concept-feeders:
 
 Feeders
-=======
-
-.. todo:: Fix cross-doc links when done
+-------
 
 When the tested application offers the possibility to authenticate, tests should take this into consideration and use data to test log in, log out, actions allowed only for certain users, and so on.
 
 Gatling doesn't provide the tools to generate this test data. However, it allows you to take existing data and feed scenarios with them thanks to Feeders
 
-For more information, check the [Feeders reference section](Feeders).
+For more information, check the :ref:`Feeders reference section <feeders>`.
 
-.. _checks:
+.. _concept-checks:
 
 Checks
-======
-
-.. todo:: Fix cross-doc links when done
+------
 
 Each time a request is sent, a response is eventually sent by the server. Gatling is able to analyze this response with checks.
 
@@ -122,14 +118,13 @@ A check is a response processor that captures some part of it and verifies that 
 
 These checks allow you to be sure that the results obtained during the simulation are not related to server malfunctions. For example, Gatling could retrieve responses with good response times, but these responses may not be what they should, therefore, the analysis you could make on the results given by Gatling may be wrong.
 
-For more information, check the [Checks reference section](Checks).
+For more information, check the :ref:`Checks reference section <checks>`.
 
-.. _reports :
+.. _concept-reports :
+
 Reports
-=======
-
-.. todo:: Fix cross-doc links when done
+-------
 
 By default, Gatling automatically generates reports at the end of a simulation. They consist in HTML files, therefore, they are portable and they can be viewed on any device with a web browser.
 
-Reports are detailed in the [[corresponding page|Reports]]
+Reports are detailed in the :ref:`Reports reference section <reports>`
