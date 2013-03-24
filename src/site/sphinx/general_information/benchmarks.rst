@@ -71,11 +71,9 @@ And here are the results, run in quite similar conditions:
 See for yourself!
 
 .. image:: img/benchmark-jmeter-transactions.png
-  :width: 70 %
 
 JMeter 2.8
 
 .. image:: img/benchmark-gatling-transactions.png
-  :scale: 50 %
 
 Gatling 1.3.2
