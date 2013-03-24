@@ -11,7 +11,7 @@ Upcoming
 Passed
 ======
 
-* *March 4th, 2013_* `Alpes JUG <http://www.alpesjug.fr/?p=1878>`_ with Stéphane Landelle and Pierre Dal-Pra
+* *March 4th, 2013* `Alpes JUG <http://www.alpesjug.fr/?p=1878>`_ with Stéphane Landelle and Pierre Dal-Pra
 * *February 12th, 2013* `Ch'ti JUG <http://chtijug.org/session-tests-de-charge-avec-gatling-le-12-fevrier>`_ with Stéphane Landelle and Pierre Dal-Pra
 * *February 12th, 2013* `Human Talks Paris <http://humantalks.com/talks/78-tests-de-charge-avec-gatling>`_ with Romain Sertelon
 * *January 10th, 2013* `Bordeaux JUG <http://www.bordeauxjug.org/20130110_Gatling>`_ with Stéphane Landelle and François Dussert
