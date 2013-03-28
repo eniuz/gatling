@@ -6,6 +6,7 @@ Reference
 
   session
   configuration
+  injection
   structure-elements
   feeders
   checks
