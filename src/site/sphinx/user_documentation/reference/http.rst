@@ -126,12 +126,14 @@ is enabled by default.
 To disable this feature, just add ``.disableAutomaticReferer`` to an
 HTTP Protocol Configuration definition.
 
+.. _warm-up:
+
 Automatic warm up
 ~~~~~~~~~~~~~~~~~
 
 The Java/NIO engine start up introduces an overhead on the first request
 to be executed. In order to compensate this effect, Gatling
-automatically performs a request to [http://gatling-tool.org].
+automatically performs a request to http://gatling-tool.org.
 
 To disable this feature, just add ``.disableWarmUp`` to an HTTP Protocol
 Configuration definition. To change the warm up url, just add
@@ -192,6 +194,8 @@ Please note the following limitations:
    is perfectly supported.
 -  Gatling currently doesn't support ``HttpOnly``property, as it
    currently handles indifferently http and non-http requests.
+
+.. _caching:
 
 Caching
 -------

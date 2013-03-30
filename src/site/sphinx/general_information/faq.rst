@@ -51,13 +51,11 @@ Gatling comes by default with Netty, but one can configure it to use Grizzly ins
 
 **Q: I get a "Connection timed out: no further information to http://gatling-tool.org", what happens?**
 
-.. todo:: fix cross-doc links when done
-
 Since 1.2.0, Gatling has an option for sending a request in order to warm up the engine and have more precise statistics during the run. This option is enabled by default and ``http://gatling-tool.org`` is the default url.
 
 If Gatling can't reach out this url either because you don't have a connection, or because it requires a proxy configuration, you'll get this stacktrace.
 
-Either disable this feature, or change the target url. See documentation [here](https://github.com/excilys/gatling/wiki/HTTP#wiki-auto-warmup).
+Either disable this feature, or change the target url. See documentation :ref:`here <warm-up>`.
 
 .. _class-size:
 
@@ -82,11 +80,9 @@ If you don't care about maintainability but just want to quickly play what you r
 
 **Q: I don't get the number of HTTP requests I expect?**
 
-.. todo:: fix cross-doc links when done
-
 Are you sure that some requests are not being cached? Gatling does its best to simulate real users behavior, so HTTP caching is enabled by default.
 
-Depending on your use case, you might either realize that the number of requests is actually perfectly fine, or you might want to [disable caching](https://github.com/excilys/gatling/wiki/HTTP#wiki-caching).
+Depending on your use case, you might either realize that the number of requests is actually perfectly fine, or you might want to :ref:`disable caching <caching>`.
 
 .. _scheduler:
 
