@@ -7,7 +7,7 @@ import sys, os
 # -- General configuration -----------------------------------------------------
 
 sys.path.append(os.path.abspath('../_sphinx/exts'))
-extensions = ['sphinx.ext.todo']
+extensions = ['sphinx.ext.todo','sphinx.ext.extlinks']
 
 templates_path = ['_templates']
 source_suffix = '.rst'
@@ -46,3 +46,7 @@ htmlhelp_basename = 'Gatlingdoc'
 
 # Show todos while POCing the documentation
 todo_include_todos = True
+extlinks = {
+  'issue' : ('https://github.com/excilys/gatling/issues/%s','#'),
+  'milestone' : ('https://github.com/excilys/gatling/issues?milestone=%s&state=closed', None)
+}

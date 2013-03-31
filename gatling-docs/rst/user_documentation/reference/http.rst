@@ -22,6 +22,8 @@ scenario. This is done thanks to the following statements::
   ...
   setUp(scn.protocolConfig(httpConf))
 
+.. _base-url:
+
 Base URL
 --------
 
@@ -130,6 +132,8 @@ To disable this feature, just add ``.disableWarmUp`` to an HTTP Protocol
 Configuration definition. To change the warm up url, just add
 ``.warmUp("newUrl")``.
 
+.. _custom-dump:
+
 Dumping custom data
 -------------------
 
@@ -182,7 +186,7 @@ Please note the following limitations:
   stress test doesn't make sense. However, explicit expiration when
   the server returns a cookie with an expiration date in the past
   is perfectly supported.
-* Gatling currently doesn't support ``HttpOnly``property, as it
+* Gatling currently doesn't support ``HttpOnly`` property, as it
   currently handles indifferently http and non-http requests.
 
 .. _caching:
@@ -232,6 +236,8 @@ This is how an HTTP request is declared::
   // concrete examples
   http("Retrieve home page").get("https://github.com/excilys/gatling")
   http("Login").post("https://github.com/session")
+
+.. _query_params:
 
 Query Parameters
 ----------------
@@ -331,6 +337,8 @@ Method specific methods
 
 *Sorry for this bizarre title ;-)*
 
+.. _request-body:
+
 Adding a body to a request
 --------------------------
 
@@ -396,6 +404,8 @@ website <http://scalate.fusesource.org/documentation/ssp-reference.html>`_.
   Instead of ``"myValue"``, you can use ELs to insert session values in your template::
 
   Map("value" -> "${mySessionKey}")
+
+.. _byteArrayBody:
 
 byteArrayBody (byteArray : (Session) => Array[Byte])
 ****************************************************
