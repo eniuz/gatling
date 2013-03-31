@@ -108,14 +108,6 @@
 		<!-- http://repo.jenkins-ci.org/content/repositories/releases -->
 	</repositories>
 
-	<pluginRepositories>
-		<pluginRepository>
-			<id>sonatype</id>
-			<name>Sonatype OSS Repository</name>
-			<url>https://oss.sonatype.org/content/groups/public/</url>
-		</pluginRepository>
-	</pluginRepositories>
-
 	<properties>
 		<maven.compiler.source>1.6</maven.compiler.source>
 		<maven.compiler.target>1.6</maven.compiler.target>
@@ -157,8 +149,6 @@
 		<maven-plugin-plugin.version>2.9</maven-plugin-plugin.version>
 		<build-helper-maven-plugin.version>1.7</build-helper-maven-plugin.version>
 		<maven-enforcer-plugin.version>1.2</maven-enforcer-plugin.version>
-		<maven-project-info-reports-plugin.version>2.6</maven-project-info-reports-plugin.version>
-		<sphinx-maven-plugin.version>1.0.2</sphinx-maven-plugin.version>
 
 		<header.basedir>${project.basedir}</header.basedir>
 	</properties>
@@ -578,24 +568,4 @@
 		</plugins>
 	</build>
 
-	<reporting>
-		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-project-info-reports-plugin</artifactId>
-				<version>${maven-project-info-reports-plugin.version}</version>
-				<reportSets>
-					<reportSet>
-						<reports></reports>
-					</reportSet>
-				</reportSets>
-			</plugin>
-			<plugin>
-				<groupId>org.tomdz.maven</groupId>
-				<artifactId>sphinx-maven-plugin</artifactId>
-				<version>${sphinx-maven-plugin.version}</version>
-				<inherited>false</inherited>
-			</plugin>
-		</plugins>
-	</reporting>
 </project>
