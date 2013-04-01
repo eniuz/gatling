@@ -72,6 +72,8 @@ credentials for the proxy::
                            .httpsPort(8143)
                            .credentials("myUsername","myPassword")
 
+.. _follow-redirects:
+
 Follow Redirects
 ----------------
 

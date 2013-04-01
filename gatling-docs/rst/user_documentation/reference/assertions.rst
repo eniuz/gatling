@@ -57,7 +57,7 @@ part.
 
    details("Search" / "Index")
 
-  More information on how to use groups  `here <TODO _structure-elements#wiki-group>`_.
+More information on how to use groups [here](Structure-Elements#wiki-group).
 
 .. todo:: fix cross-doc links when possible
 

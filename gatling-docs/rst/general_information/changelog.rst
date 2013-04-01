@@ -11,6 +11,8 @@ Changelog
   * Maven plugin property `simulation` renamed into `simulationClass`
   * JsonPath not longer supports attribute axis (didn't really make sense and was equivalent to child element one).
 
+  See :ref:`Migration guide <1.4.6>` for more information.
+
 Fixes
 -----
 
@@ -117,9 +119,9 @@ Features
 ========================
 
 .. warning::
-  .. todo:: fix cross doc links when done
+  This release introduce a breaking change in the Simulation classes format. Deprecated methods in 1.3.X have been removed.
 
-  This release introduce a breaking change in the Simulation classes format. Deprecated methods in 1.3.X have been removed. See [migration guide](https://github.com/excilys/gatling/wiki/Migrating#wiki-1.4.0)
+  See :ref:`Migration guide <1.4.0>` for more information.
 
 Fixes
 -----
@@ -254,9 +256,7 @@ Fixes
 ========================
 
 .. warning::
-  .. todo:: fix cross docs links when possible
-
-  Migration required, see [migration guide](https://github.com/excilys/gatling/wiki/Migrating#wiki-1.3.0)
+  Migration required, see :ref:`Migration guide <1.3.0>` for more information.
 
 API changes
 -----------
@@ -368,7 +368,7 @@ Fixes
 ========================
 
 .. warning::
-  due to #566, 1.2.2 users are recommended to upgrade to 1.2.3
+  due to :issue:`566`, 1.2.2 users are recommended to upgrade to 1.2.3
 
 Features
 --------
@@ -393,7 +393,7 @@ Fixes
 ========================
 
 .. warning::
-  Due to #545, 1.2.0 users are highly recommended to upgrade!
+  Due to :issue:`545`, 1.2.0 users are highly recommended to upgrade!
 
 Features
 --------
@@ -415,9 +415,7 @@ Fixes
 =======================
 
 .. warning::
-  .. todo:: fix cross docs links when possible
-
-  Migration required, see [migration guide](https://github.com/excilys/gatling/wiki/Migrating#wiki-1.2.0)
+  Migration required, see :ref:`Migration guide <1.2.0>` for more information.
 
 Features
 --------
@@ -540,9 +538,7 @@ Features
 =======================
 
 .. warning::
-  .. todo:: fix cross docs links when possible
-
-  Migration required, see [migration guide](https://github.com/excilys/gatling/wiki/Migrating#wiki-1.1.0)
+  Migration required, see :ref:`Migration guide <1.1.0>` for more information.
 
 Features
 --------
