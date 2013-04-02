@@ -601,9 +601,7 @@ Fixes
 Features
 --------
 
-.. todo:: fix cross docs links when possible
-
-* :issue:`345`, :issue:`348` & :issue:`330` - Better support for long scenarios (via [manual splitting](https://github.com/excilys/gatling/wiki/First-Steps-with-Gatling#wiki-long-scenarios))
+* :issue:`345`, :issue:`348` & :issue:`330` - Better support for long scenarios (via :ref:`manual splitting <long-scenarios>`)
 * :issue:`347` - Recorder splits long scenarios so they can be run with no extra configuration.
 
 :milestone:`v1.0.1 <3>`
